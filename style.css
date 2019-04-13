@@ -65,6 +65,7 @@ a:active{
 
 .logoAndImage{
 float: left;
+size: 50%;
 }
 
 .logoLarge {
@@ -76,7 +77,8 @@ float: left;
 footer{
   clear: both;
   display: block;
-  position: relative;
+  position: fixed;
+  left: 0;
   bottom:0;
   background-color: #000;
   width:100%; 
@@ -118,7 +120,7 @@ p{
 
 /*----------- CONTACT -----------*/
 form{
-  width:auto;
+  width: 40%;
   height: 100%;
   padding: 50px;
   float: right;
@@ -136,7 +138,7 @@ input[type="date"],
 select,
 textarea{
   display: block;
-  width: 50%;
+  width: 80%;
   padding: 8px;
   margin: 10px;
 }
