@@ -1,17 +1,19 @@
+/*----------- RESET -----------*/
 *{
   margin: 0;
   padding: 0;
 }
 
+/*-------- NAV --------*/
+
 .navbar{
 width: 100%;
+z-index: 1;
 height: 95px;
 background-color: #000;
 position: sticky;
 top: 0;
 }
-
-
 
 #logoSmall{
   margin-left: 20px;
@@ -50,26 +52,19 @@ a:hover{
 a:active{
   color: steelblue;
   text-decoration: underline;
-  
 }
 
+/*-------- BACKGROUND --------*/
 .backGroundImg {
-  position: absolute;
+  float: left;
+  position: fixed;
   z-index: -1;
   height: auto;
   opacity: 0.3;
 }
+
 .logoAndImage{
 float: left;
-}
-
-.homeBackgroundImg{
-  float: left;
-  position: absolute;
-  max-width: 100%;
-  height: auto;
-  z-index: -1;
-  float: left;
 }
 
 .logoLarge {
@@ -77,9 +72,11 @@ float: left;
   float: left;
 }
 
+/*-------- FOOTER --------*/
 footer{
   display: block;
-  clear: both;
+  position: absolute;
+  bottom:0;
   background-color: #000;
   width:100%; 
 }
@@ -93,6 +90,17 @@ footer{
   text-align: center;
 }
 
+/*----------- HOME -----------*/
+.homeBackgroundImg{
+  float: left;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  float: left;
+}
+
+/*----------- ABOUT -----------*/
 #bio {
   padding: 100px;
   text-indent: 50px;
@@ -107,3 +115,6 @@ p{
   float: right;
   margin: 20px;
 }
+
+
+
