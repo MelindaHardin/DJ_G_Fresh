@@ -20,13 +20,49 @@
         <li><a href="#">contact</a></li>
       </ul>
     </nav>
-  <!--BACKGROUND IMAGE-->
+  <!--BACKGROUND IMAGES-->
   <img class="backGroundImg" src="images/contactBackground.JPG" height="100%" width="100%">
   <img class="logoLarge" src="images/DJG-Fresh-Logo.png" height="50%" width="50%">
 
-  <!--LOGO-->
+  <!--FORM-->
+  <form id="contactForm">
+    <fieldset>
+      <legend>Contact D.J. G-Fresh!!!</legend>
+      <label for="firstName">Name</label>
+      <input type="text" id="firstName" placeholder="First">
 
-  <!--CONTACT FORM-->
+      <label for="lastName"></label>
+      <input type="text" id="lastName" placeholder="Last">
+      <br>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="email@email.com">
+
+      <label for="phoneNumber">Phone Number</label>
+      <input type="tel" id="phoneNumber" placeholder="(222)111-3333">
+
+      <label for="eventType">Event Type:</label>
+      <select>
+        <option value="other">Other</option>
+        <option value="wedding">Wedding</option>
+        <option value="corporate">Corporate</option>
+        <option value="school">School</option>
+        <option value="childsParty">Child's Party</option>
+        <option value="holiday">Holiday</option>
+        <option value="customMix">Custom Mix</option>
+        <option value="supplyRental">Supply Rental</option>
+      </select>
+
+      <label for="eventDate">Date of Event</label>
+      <input type="date" id="eventDate">
+
+      <label for="message">Message</label>
+      <textarea rows="10"cols="100"></textarea>
+
+      <input type="submit" value="submit">
+
+    </fieldset>
+</form>
 
   <!--FOOTER-->
   <footer>
