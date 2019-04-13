@@ -2,6 +2,11 @@
 width: 100%;
 height: 95px;
 background-color: #000;
+position: sticky;
+}
+
+#container{
+  float: left;
 }
 
 #logoSmall{
@@ -41,4 +46,45 @@ a:hover{
 
 a:active{
   color: steelblue;
+  text-decoration: underline;
+  
+}
+
+.backGroundImg {
+  position: absolute;
+  z-index: -1;
+  height: auto;
+  opacity: 0.3;
+}
+.logoAndImage{
+float: left;
+}
+
+.homeBackgroundImg{
+  float: left;
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  float: left;
+}
+
+.logoLarge {
+  opacity: 0.6;
+  float: left;
+}
+
+footer{
+  display: block;
+  clear: both;
+  background-color: #000;
+  width:100%; 
+}
+
+#footerDetails, #WadeSitesFooter{
+  color: #f3f3f3;
+  display: block;
+  width: 50%;
+  margin: auto;
+  font-size: 12px;
 }
