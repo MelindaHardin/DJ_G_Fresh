@@ -176,6 +176,11 @@ label{
   left: 20px;
 }
 
+#evMix{
+  position: relative;
+  left: 200px;
+}
+
 .flip-card-inner {
   position: relative;
   width: 100%;
