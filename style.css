@@ -160,25 +160,17 @@ label{
 
 
 /*----------- MIXES -----------*/
+#mixesContainer{
+  margin-top: 20px;
+  position: relative;
+}
 
 .flip-card {
   width: 400px;
   height: 400px;
   perspective: 1000px;
   float: left;
-  margin: 20px auto;
-  position: relative;
-  right: 20px;
-}
-
-#cmMix{
-  position: relative;
-  left: 20px;
-}
-
-#evMix{
-  position: relative;
-  left: 200px;
+  margin: auto;
 }
 
 .flip-card-inner {
