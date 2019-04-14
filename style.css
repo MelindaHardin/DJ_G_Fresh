@@ -110,6 +110,10 @@ padding: 15px;
   z-index: -1;
 }
 
+.homeSlides{
+  display: none;
+}
+
 /*----------- ABOUT -----------*/
 #bio {
   padding: 100px;
@@ -155,9 +159,10 @@ textarea{
   margin: 10px;
 }
 
-label{
+label, legend{
   margin: 10px;
   color: #f3f3f3;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 
