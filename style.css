@@ -166,11 +166,11 @@ label{
 }
 
 .flip-card {
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   perspective: 1000px;
   float: left;
-  margin: auto;
+  margin: 20px 20px;
 }
 
 .flip-card-inner {
