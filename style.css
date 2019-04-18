@@ -53,7 +53,8 @@ a:active{
   text-decoration: underline;
 }
 
-/*--------BODY and  BACKGROUND --------*/
+/*-------- HOME/INDED --------*/
+
 .backGroundImg {
   position: fixed;
   z-index: -1;
@@ -62,15 +63,6 @@ a:active{
   max-height: 100%;
   height: 100%;
   opacity: 0.6;
-}
-
-body{
-  background-color: #000;
-}
-
-.logoAndImage{
-width: auto;
-height: auto;
 }
 
 .logoLarge {
@@ -88,17 +80,17 @@ height: auto;
 /*-------- FOOTER --------*/
 footer{
   clear: both;
+  position: fixed;
   display: block;
-  position: absolute;
   bottom: 0;
   width:100%; 
   max-height: 80px;
   height: auto;
+
 }
 
 #footerDetails, #WadeSitesFooter{
   color: #f3f3f3;
-  position: static;
   display: block;
   width: 50%;
   margin: auto;
@@ -124,6 +116,16 @@ padding: 15px;
 
 
 /*----------- ABOUT -----------*/
+#aboutPageBackground{
+  background-image: url("images/DJG-Fresh-Logo.png"), url("images/aboutBackground.JPG");
+  background-size: 50%, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-position-y: center, center;
+  background-blend-mode: soft-light, lighten;
+  background-attachment: fixed, fixed;
+}
+
 #bio {
   padding: 100px;
   text-indent: 50px;
@@ -143,6 +145,15 @@ p{
 }
 
 /*----------- SERVICES -----------*/
+#servicesPageBackground{
+  background-image: url("images/DJG-Fresh-Logo.png"), url("images/servicesBackground.JPG");
+  background-size: 50%, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-position-y: center, center;
+  background-blend-mode: soft-light, lighten;
+  background-attachment: fixed, fixed;
+}
 
 .card-group {
  height: 100%;
@@ -152,7 +163,7 @@ p{
 
 .mainContainer{
   margin:auto;
-  width: 50%;
+  width: 70%;
   top: 0; 
 }
 
@@ -161,18 +172,35 @@ p{
 }
 
 /*----------- MIXES -----------*/
+#mixesBackground::after{
+  opacity: 0.6;
+}
+
+#mixesPageBackground{
+  background-image: url("images/DJG-Fresh-Logo.png"), url("images/mixesBackground3.JPG");
+  background-size: 50%, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-position-y: center, center;
+  background-blend-mode: soft-light, lighten;
+  background-attachment: fixed, fixed;
+}
+
 #mixesContainer{
-  float: left;
+  display: block;
+  margin-top: 50%;
   margin: auto;
-  width: 50%;
+  width: 60%;
+  padding-top: 20%;
 }
 
 .flip-card {
+  float: left;
   width: 300px;
   height: 300px;
-  perspective: 1000px;
-  margin: 30px 30px;
-  display: inline-block;
+  perspective: 16000px;
+  margin: 20px 20px;
+  display: block;
 }
 
 .flip-card-inner {
@@ -211,6 +239,15 @@ p{
 }
 
 /*----------- CONTACT -----------*/
+#contactPageBackground{
+  background-image: url("images/DJG-Fresh-Logo.png"), url("images/contactBackground.JPG");
+  background-size: 50%, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-position-y: center, center;
+  background-blend-mode: soft-light, lighten;
+  background-attachment: fixed, fixed;
+}
 form{
   width: 40%;
   height: 100%;
