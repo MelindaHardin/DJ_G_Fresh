@@ -5,52 +5,8 @@
 }
 
 /*-------- NAVBAR --------*/
-.navigationBar{
-  padding: 20px;
-  height: 80;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-
-#logoSmall{
-  float: left;
-  height: 80px;
-  widows: 80px;
-  margin: auto;
-}
-
-ul{
-  list-style-type: none;
-  float: right;
-  margin-right: 60px;
-}
-
-li {
-  display: inline;
-  padding: 20px;
-  font-size: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  text-decoration: none;
-}
-
-a:link{
-  text-decoration: none;
-}
-
-a:visited{
-  text-decoration: none;
-  color: #f3f3f3;
-}
-
-a:hover{
-  color: rgb(255, 251, 0);
-  text-decoration: underline;
-}
-
-a:active{
-  color: steelblue;
-  text-decoration: underline;
+nav{
+  background-color: orange;
 }
 
 /*-------- HOME/INDED --------*/
@@ -122,19 +78,21 @@ padding: 15px;
   background-repeat: no-repeat, no-repeat;
   background-position: left, center;
   background-position-y: center, center;
-  background-blend-mode: soft-light, lighten;
   background-attachment: fixed, fixed;
+  
 }
 
 #bio {
-  padding: 100px;
   text-indent: 50px;
+  width: 50%;
+  margin: auto;
+  background-color: #f3f3f3;
 }
 
 p{
   margin: 20px;
   text-align: justify;
-  color: #f3f3f3;
+  color: black;
 }
 
 #aboutImg{
@@ -151,7 +109,6 @@ p{
   background-repeat: no-repeat, no-repeat;
   background-position: left, center;
   background-position-y: center, center;
-  background-blend-mode: soft-light, lighten;
   background-attachment: fixed, fixed;
 }
 
@@ -182,7 +139,6 @@ p{
   background-repeat: no-repeat, no-repeat;
   background-position: left, center;
   background-position-y: center, center;
-  background-blend-mode: soft-light, lighten;
   background-attachment: fixed, fixed;
 }
 
@@ -245,39 +201,11 @@ p{
   background-repeat: no-repeat, no-repeat;
   background-position: left, center;
   background-position-y: center, center;
-  background-blend-mode: soft-light, lighten;
   background-attachment: fixed, fixed;
 }
 form{
-  width: 40%;
-  height: 100%;
-  padding: 50px;
-  float: right;
+width: 50%;
+margin: auto;
 }
-
-input[type="text"]{
-  display: inline-block;
-  width: 30%;
-  padding: 8px;
-  margin: 10px;
-}
-
-input[type="tel"],
-input[type="email"],
-input[type="date"],
-select,
-textarea{
-  display: block;
-  width: 80%;
-  padding: 8px;
-  margin: 10px;
-}
-
-label, legend{
-  margin: 10px;
-  color: #f3f3f3;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
 
 

@@ -4,62 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>D.J. G-Fresh!!!</title>
   </head>
   <body id="contactPageBackground">
+
   <!--NAVBAR-->
-  <nav class="navigationBar">
-    <img id="logoSmall" src="images/DJG-Fresh-Logo-Black copy.png">
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
-      <li><a href="services.html">services</a></li>
-      <li><a href="mixes.html">mixes</a></li>
-      <li><a href="#">contact</a></li>
-    </ul>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img id="navLogo" src="images/DJG-Fresh-Logo-Black copy.png" height="80px" width="80px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mixes.html">Mixes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Services
+           </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="services.html">Weddings</a>
+            <a class="dropdown-item" href="services.html">Corporate</a>
+            <a class="dropdown-item" href="services.html">Child's party &amp; Schools</a>
+            <a class="dropdown-item" href="services.html">Holidays</a>
+            <a class="dropdown-item" href="services.html">Custom Mix</a>
+            <a class="dropdown-item" href="services.html">Supply Rental</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="testimonials.html">Testimonials</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+        </li>
+    </div>
   </nav>
+</nav>
 
   <!--FORM-->
-  <form id="contactForm">
-    <fieldset>
-      <legend>Let's talk.</legend>
-      <label for="firstName">Name</label>
-      <input type="text" id="firstName" placeholder="First">
-
-      <label for="lastName"></label>
-      <input type="text" id="lastName" placeholder="Last">
-      <br>
-
-      <label for="email">Email Address</label>
-      <input type="email" id="email" placeholder="email@email.com">
-
-      <label for="phoneNumber">Phone Number</label>
-      <input type="tel" id="phoneNumber" placeholder="(222)111-3333">
-
-      <label for="eventType">Event Type:</label>
-      <select>
-        <option value="other">Other</option>
-        <option value="wedding">Wedding</option>
-        <option value="corporate">Corporate</option>
-        <option value="school">School</option>
-        <option value="childsParty">Child's Party</option>
-        <option value="holiday">Holiday</option>
-        <option value="customMix">Custom Mix</option>
-        <option value="supplyRental">Supply Rental</option>
-      </select>
-
-      <label for="eventDate">Date of Event</label>
-      <input type="date" id="eventDate">
-
-      <label for="message">Message</label>
-      <textarea rows="10"cols="100"></textarea>
-
-      <input type="submit" value="submit">
-
-    </fieldset>
-</form>
+  <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Example select</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">Example multiple select</label>
+        <select multiple class="form-control" id="exampleFormControlSelect2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </form>
 
    <!--FOOTER-->
    <footer>
@@ -71,6 +93,10 @@
         </div>
       </div>
     </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
   </body>
 </html>
