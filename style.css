@@ -6,9 +6,11 @@
 
 /*-------- NAVBAR --------*/
 .navbar{
-  background-color: orange;
   z-index: 2;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 50px;
 }
 
 /*-------- HOME/INDED --------*/
@@ -88,7 +90,8 @@ padding: 15px;
   text-indent: 50px;
   width: 50%;
   margin: auto;
-  background-color: #f3f3f3;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 p{
@@ -101,7 +104,7 @@ p{
   float: right;
   margin: 20px;
   min-height: 130px;
-  min-width: 150px;
+  min-width: 180px;
 }
 
 /*----------- SERVICES -----------*/
@@ -114,20 +117,14 @@ p{
   background-attachment: fixed, fixed;
 }
 
-.card-group {
- height: 100%;
- width: 100%;
- margin: auto;
+#cardsContainer {
+  width: 50%;
+  margin: auto;
 }
-
-.mainContainer{
-  margin:auto;
-  width: 70%;
-  top: 0; 
-}
-
-.card {
-  margin: 30px 30px;
+.card{
+  width: 50%;
+  height: 50%;
+  margin: 5px;
 }
 
 /*----------- MIXES -----------*/
