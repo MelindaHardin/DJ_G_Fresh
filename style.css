@@ -120,12 +120,15 @@ p{
 #cardsContainer {
   width: 50%;
   margin: auto;
+  margin-top: 5%;
 }
 .card{
-  width: 50%;
-  height: 50%;
-  margin: 5px;
+  width: 280px;
+  height: 280px;
+  margin: 25px;
+  float: right;
 }
+
 
 /*----------- MIXES -----------*/
 
