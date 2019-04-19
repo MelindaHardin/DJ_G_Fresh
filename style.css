@@ -5,8 +5,10 @@
 }
 
 /*-------- NAVBAR --------*/
-nav{
+.navbar{
   background-color: orange;
+  z-index: 2;
+  position: sticky;
 }
 
 /*-------- HOME/INDED --------*/
@@ -129,9 +131,6 @@ p{
 }
 
 /*----------- MIXES -----------*/
-#mixesBackground::after{
-  opacity: 0.6;
-}
 
 #mixesPageBackground{
   background-image: url("images/DJG-Fresh-Logo.png"), url("images/mixesBackground3.JPG");
@@ -142,12 +141,14 @@ p{
   background-attachment: fixed, fixed;
 }
 
-#mixesContainer{
-  display: block;
-  margin-top: 50%;
-  margin: auto;
-  width: 60%;
-  padding-top: 20%;
+.mainContainer{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 100px;
+  height: 100px;
 }
 
 .flip-card {
@@ -205,7 +206,9 @@ p{
 }
 form{
 width: 50%;
+height: 50%;
 margin: auto;
 }
+
 
 
