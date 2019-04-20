@@ -13,13 +13,6 @@
   height: 50px;
 }
 
-/*-------- HOME/INDEX --------*/
-
-
-
-/*----------- HOME-slides -----------*/
-
-
 .cb-slideshow,
 .cb-slideshow:after { 
     position: fixed;
@@ -31,7 +24,9 @@
 }
 .cb-slideshow:after { 
     content: '';
-    background: transparent url(images/DJG-Fresh-Logo.png)no-repeat center; 
+    background-image: url(images/DJG-Fresh-Logo.png); 
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
 .cb-slideshow li:nth-child(1) span { 
@@ -57,9 +52,10 @@
 .cb-slideshow li:nth-child(6) span { 
   background-image: url(images/DJG-Fresh-Logo.png);
   animation-delay: 30s; 
+  background-position: left;
+  background-position-y: center;
+  background-attachment: fixed;
 }
-
-
 
 .cb-slideshow li span { 
   width: 100%;
