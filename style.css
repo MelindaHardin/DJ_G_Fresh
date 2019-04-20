@@ -5,6 +5,9 @@
 }
 
 /*-------- NAVBAR --------*/
+.nav .justify-content-end {
+ margin-right: 20px;
+}
 .nav{
   z-index: 1;
   position: fixed;
@@ -19,9 +22,7 @@
   color: rgba(130, 130, 130, 0.5);
 }
 
-a {
-  color: #f3f3f3;
-}
+
 
 /*-------- HOME SLIDESHOW --------*/
 
@@ -146,7 +147,7 @@ padding: 15px;
   color: rgba(130, 130, 130, 0.5);
 }
 
-p{
+#bio p{
   margin: 20px;
   text-align: justify;
   color:#fff;
@@ -170,15 +171,17 @@ p{
 }
 
 #cardsContainer {
-  width: 50%;
+  width: 60%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 .card{
   width: 280px;
   height: 280px;
   margin: 25px;
-  float: right;
+  float: left;
+  box-shadow: 0 0 32px rgba(0,0,0,0.6);
+
 }
 
 
