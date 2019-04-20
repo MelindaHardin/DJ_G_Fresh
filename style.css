@@ -6,13 +6,14 @@
 
 /*-------- NAVBAR --------*/
 .navbar{
-  z-index: 2;
+  z-index: 1;
   position: fixed;
   width: 100%;
   top: 0;
-  height: 50px;
-  background-color: transparent;
+  max-height: 50px;
 }
+
+/*-------- HOME SLIDESHOW --------*/
 
 .cb-slideshow,
 .cb-slideshow:after { 
@@ -81,6 +82,7 @@
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
+
 /*-------- FOOTER --------*/
 footer{
   clear: both;
@@ -90,6 +92,7 @@ footer{
   width:100%; 
   max-height: 80px;
   height: auto;
+  z-index: -2;
 
 }
 
@@ -224,6 +227,25 @@ p{
 .flip-card-back {
   transform: rotateY(180deg);
   z-index: 1;
+}
+
+/*----------- TESTIMONIALS -----------*/
+
+#testimonialsPageBackground{
+  background-image: url("images/DJG-Fresh-Logo.png"), url("images/testimonialsBackground.JPG");
+  background-size: 50%, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left, center;
+  background-position-y: center, center;
+  background-attachment: fixed, fixed;
+}
+.list-group{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: 50%;
 }
 
 /*----------- CONTACT -----------*/
