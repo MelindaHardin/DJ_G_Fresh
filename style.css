@@ -11,6 +11,7 @@
   width: 100%;
   top: 0;
   height: 50px;
+  background-color: transparent;
 }
 
 .cb-slideshow,
@@ -30,10 +31,10 @@
 }
 
 .cb-slideshow li:nth-child(1) span { 
-  background-image: url(images/homeBackground.JPG) 
+  background-image: url(images/homeBackground.JPG);
 }
 .cb-slideshow li:nth-child(2) span { 
-  background-image: url(images/group.jpg);
+  background-image: url(images/HPMQ\ flipped.jpg);
   animation-delay: 6s; 
 }
 .cb-slideshow li:nth-child(3) span { 
@@ -50,11 +51,8 @@
 }
 
 .cb-slideshow li:nth-child(6) span { 
-  background-image: url(images/DJG-Fresh-Logo.png);
-  animation-delay: 30s; 
-  background-position: left;
-  background-position-y: center;
-  background-attachment: fixed;
+  background-image: url(images/Album_events/HPMV.JPG);
+  animation-delay: 30s;
 }
 
 .cb-slideshow li span { 
