@@ -5,12 +5,22 @@
 }
 
 /*-------- NAVBAR --------*/
-.navbar{
+.nav{
   z-index: 1;
   position: fixed;
   width: 100%;
   top: 0;
   max-height: 50px;
+  z-index: 1;
+
+  box-shadow: 0 0 32px rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.2);
+  z-index: 1;
+  color: rgba(130, 130, 130, 0.5);
+}
+
+a {
+  color: #f3f3f3;
 }
 
 /*-------- HOME SLIDESHOW --------*/
@@ -256,7 +266,7 @@ p{
 
 .mb-1{
   color: #000;
-  font-style: italic;
+  font-style: italic
 }
 
 /*----------- CONTACT -----------*/
