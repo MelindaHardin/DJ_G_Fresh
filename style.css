@@ -103,7 +103,7 @@ footer{
   width:100%; 
   max-height: 80px;
   height: auto;
-  z-index: -2;
+  z-index: 1;
 
 }
 
@@ -170,18 +170,19 @@ padding: 15px;
   background-attachment: fixed, fixed;
 }
 
-#cardsContainer {
-  width: 50%;
-  margin: auto;
-  margin-top: 10%;
+.cardsContainer {
+  position: absolute;
+  margin-top: 5%;
+  left: 32%;
+  margin-bottom: 10%;
+  width: 70%;
 }
+
 .card{
-  width: 280px;
-  height: 280px;
-  margin: 20px;
+  width: 60%;
   float: left;
   box-shadow: 0 0 32px rgba(0,0,0,0.6);
-
+  z-index: 0;
 }
 
 
@@ -261,7 +262,7 @@ padding: 15px;
 .list-group{
   position: absolute;
   margin-top: 5%;
-  left: 30%;
+  left: 25%;
   margin-left: -50px;
   margin-bottom: 10%;
   width: 50%;
@@ -303,6 +304,11 @@ form{
  
 .form-group, .row {
   margin: 20px;
+}
+
+label{
+  color: #f3f3f3;
+  font-weight: bold;
 }
 
 

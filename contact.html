@@ -11,51 +11,43 @@
   </head>
   <body id="contactPageBackground">
 
-  <!--NAVBAR-->
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img id="navLogo" src="images/DJG-Fresh-Logo-Black copy.png" height="80px" width="80px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mixes.html">Mixes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="services.html">Services</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="testimonials.html">Testimonials</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!--NAVBAR-->
+  <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mixes.html">Mixes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="testimonials.html">Testimonials</a>
+      </li>
+    </ul>
 
   <!--FORM-->
   <div id="blurredformBackground">
 
     <form>
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="First name">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Last name">
-          </div>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" id="form_phone" placeholder="Phone number">
         </div>
         <div class="form-group">
-            <input type="tel" class="form-control" id="form_phone" placeholder="Phone number">
-          </div>
-        <div class="form-group">
-          <input type="email" class="form-control" id="form_email" placeholder="email address">
+          <input type="email" class="form-control" id="form_email" placeholder="Email address">
         </div>
         <div class="form-group">
           <select class="form-control" id="form_type">
@@ -68,6 +60,27 @@
             <option>Supply Rental</option>
           </select>
         </div>
+        <div class="form-group">
+          <label for="form_event_date">Event date:</label>
+          <input type="date" class="form-control" id="form_event_date" placeholder="Event date">
+        </div>
+        <div class="row">
+          <div class="col">
+              <div class="form-group">
+                <label for="form_event_start">Event start time:</label>
+                <input type="time" class="form-control" id="form_event_start" placeholder="Event start time">
+              </div>
+          </div>
+          <div class="col">
+              <div class="form-group">
+                  <label for="form_event_end">Event end time:</label>
+                <input type="time" class="form-control" id="form_event_end" placeholder="Event end time">
+              </div>
+          </div>
+        </div>
+        
+
+        
         <div class="form-group">
           <textarea class="form-control" id="form_textarea" rows="10" placeholder="Message"></textarea>
         </div>
