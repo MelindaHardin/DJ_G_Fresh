@@ -17,6 +17,10 @@
   color: rgba(130, 130, 130, 0.5);
 }
 
+li{
+  list-style: none;
+}
+
 
 
 /*-------- HOME SLIDESHOW --------*/
