@@ -1,4 +1,8 @@
 
+#wrapper{
+  min-height: 100%;
+}
+
 /*-------- NAVBAR --------*/
 .nav .justify-content-end {
  margin-right: 20px;
@@ -170,19 +174,20 @@ padding: 15px;
 }
 
 .cardsContainer {
-  position: absolute;
-  margin-top: 5%;
-  left: 32%;
+  margin: auto;
   margin-bottom: 10%;
-  width: 70%;
+  width: 50%;
+  border: solid 4px orange;
 }
 
 .card{
-  width: 50%;
-  display: block;
+  width: 30em;
+  height: 30em;
+  float: right;
   box-shadow: 0 0 32px rgba(0,0,0,0.6);
   z-index: 0;
   margin: 20px;
+ 
 }
 
 
