@@ -36,13 +36,13 @@ body{
 /*----------- ALL CONTAINERS -----------*/
 
 .container{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
 .clearfix{
   position: relative;
-  left: 5%;
+  left: 4%;
 }
 
 /*----------- ABOUT -----------*/
@@ -107,13 +107,14 @@ body{
   height:350px;
 }
 
-.flip-card-front {
-  z-index: 2;
+.card-content {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
-  z-index: 1;
+
 }
 
 
@@ -138,6 +139,14 @@ body{
 }
 
 /*----------- TESTIMONIALS -----------*/
+#testimonials{
+  background-image: url("images/testimonialsBackground.JPG");
+  background-position: center;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 
 /*----------- CONTACT -----------*/
