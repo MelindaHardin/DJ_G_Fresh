@@ -150,5 +150,26 @@ body{
 
 
 /*----------- CONTACT -----------*/
+#contact{
+  background-image: url("images/contactBackground.JPG");
+  background-position: center;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contactContainer{
+  border: solid 1px transparent;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgba(0,0,0,0.6);
+  background:rgba(255,255,255,0.75);
+  z-index: 1;
+  color: #000;
+}
 
 /*----------- FOOTER -----------*/
