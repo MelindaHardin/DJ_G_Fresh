@@ -3,7 +3,7 @@ body{
   background-color: #202020;
 }
 
-.parallax{
+.fullContainer{
   background-image: url("images/DJG-Fresh-Logo.png");
   background-size: 60%;
   background-repeat: no-repeat;
