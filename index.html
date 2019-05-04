@@ -1,100 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-
+    <meta charset="utf-8">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
 
     <link rel="icon" href="images/DJG-Fresh-Logo-Black copy.png" type="image/gif" sizes="16x16">
     <title>D.J. G-Fresh!!!</title>
-
   </head>
-
   <body>
-  <!--NAVBAR-->
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="mixes.html">Mixes</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="services.html">Services</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="testimonials.html">Testimonials</a>
-    </li>
-  </ul>
+    <!--NAVBAR-->
+    <nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#home">Home</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mixes">Mixes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#weddings">Weddings</a>
+            <a class="dropdown-item" href="#corporate">Corporate</a>
+            <a class="dropdown-item" href="#child_party">Child's Party</a>
+            <a class="dropdown-item" href="#holiday">Holiday </a>
+            <a class="dropdown-item" href="#custom_mix">Custom Mix</a>
+            <a class="dropdown-item" href="#supply_rental">Supply Rental</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
 
-<!--BACKGROUND IMAGE-->
-<ul class="cb-slideshow">
-  <li><span>Image 01</span></li>
-  <li><span>Image 02</span></li>
-  <li><span>Image 03</span></li>
-  <li><span>Image 04</span></li>
-  <li><span>Image 05</span></li>
-  <li><span>Image 06</span></li>
-</ul>
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
 
-<div class="container_about">
-  <div id="bio">
+    <!--JUMBTRON HOME-->
+      <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="container">
+          <ul class="cb-slideshow">
+            <li><span>Image 01</span></li>
+            <li><span>Image 02</span></li>
+            <li><span>Image 03</span></li>
+            <li><span>Image 04</span></li>
+            <li><span>Image 05</span></li>
+            <li><span>Image 06</span></li>
+          </ul>
+        </div>
+      </div>
 
-    <img id="aboutImg" src="images/aboutImg.JPG" height="30%" width="30%">
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
 
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
+    <!--JUMBTRON ABOUT-->
+      <div class="jumbotron jumbotron-fluid" id="about">
+        <div class="container">
+          <h1 class="display-4">About</h1>
+          <div id="bio">
 
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
+            <img id="aboutImg" src="images/aboutImg.JPG" height="30%" width="30%">
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
 
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
 
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
 
-    <p>
-        Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
-    </p>
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
 
-  </div>
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
+
+            <p>
+                Veniam non ad dolore fugiat nostrud magna occaecat enim sint elit commodo esse deserunt. Veniam voluptate ipsum consectetur ex proident cupidatat. Ad incididunt in mollit labore veniam. Duis laborum minim dolore reprehenderit in eu minim. Amet veniam duis qui tempor id. Sit excepteur anim aliqua reprehenderit cillum et laboris. Ad adipisicing id et dolore ex sit velit nostrud nulla deserunt.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+
+    <!--JUMBTRON MIXES-->
+      <div class="jumbotron jumbotron-fluid" id="mixes">
+        <div class="container clearfix">
+          <h1 class="display-4">Mixes</h1>
+
+          <div class="flip-card" id="mixOne">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class= "card-img" src="images/Mix1.jpg" alt="Mix One">
+              </div>
+              <div class="flip-card-back">
+                <img class= "card-img" src="images/Mix1.jpg"alt="Mix One Songs">
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card" id="cmMix">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class= "card-img" src="images/CM_fr.jpg" alt="Christina Milan Mix Album Cover" >
+              </div>
+              <div class="flip-card-back">
+                <img class= "card-img" src="images/CM_bk.jpg"alt="Christina Milan Mix Album Song">
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card" id="evMix">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class= "card-img" src="images/ElementalVibes_Fr (Final).jpg" alt="Elimental Vibes Mix Cover">
+              </div>
+              <div class="flip-card-back">
+                <img class="card-img" src="images/ElementalVibes_Bk.jpg" alt="Elimental Vibes Mix Songs">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!--JUMBTRON SERVICES-->
+      <div class="jumbotron jumbotron-fluid" id="services">
+        <div class="container">
+          <h1 class="display-4">Services</h1>
+          <div class="card" id="weddings">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/wedding.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Weddings<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Weddings<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+
+          <div class="card" id="corporate">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/corporate.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Corporate<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Corporate<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+
+          <div class="card" id="child_party">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/childrens.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Child's Party &amp; School<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Child's Party &amp; School<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+
+          <div class="card" id="holiday">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/Holiday.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Holiday<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Holiday<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+
+          <div class="card" id="custom_mix">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/custom.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Custom Mix<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Custom Mix<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+
+          <div class="card" id="supply_rental">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/services/supply.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Supply Rental<i class="material-icons right">Details</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Supply Rental<i class="material-icons right">close</i></span>
+              <p>Here is some Detailsrmation about this product that is only revealed once clicked on.</p>
+              <p><a href="contact.html">Contact</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--JUMBTRON TESTIMONIALS-->
+      <div class="jumbotron jumbotron-fluid" id="testimonials">
+        <div class="container">
+          <h1 class="display-4">Testimonials</h1>
+            <div class="jumbo_container">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Patricia Wade</h5>
+                    <h6>Corporate</h6>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Cillum proident exercitation quis laboris nulla enim consectetur id est velit. Tempor adipisicing duis proident laboris officia reprehenderit pariatur in. Tempor est non esse commodo pariatur in ipsum tempor in eiusmod quis. In consequat non culpa in elit mollit Lorem cillum. Laboris sint laboris aliqua adipisicing adipisicing ex ad ad id adipisicing labore aliqua magna. Labore eu ex eu adipisicing et est eiusmod duis deserunt sunt reprehenderit ad laborum irure. Do ullamco id magna Lorem qui non do anim occaecat laboris cillum.</p>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Melissa & Kate Wade</h5>
+                    <h6 class="text-muted">Wedding</h6>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Cillum proident exercitation quis laboris nulla enim consectetur id est velit. Tempor adipisicing duis proident laboris officia reprehenderit pariatur in. Tempor est non esse commodo pariatur in ipsum tempor in eiusmod quis. In consequat non culpa in elit mollit Lorem cillum. Laboris sint laboris aliqua adipisicing adipisicing ex ad ad id adipisicing labore aliqua magna. Labore eu ex eu adipisicing et est eiusmod duis deserunt sunt reprehenderit ad laborum irure. Do ullamco id magna Lorem qui non do anim occaecat laboris cillum.</p>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ellie Hardin</h5>
+                    <h6 class="text-muted">Birthday Party</h6>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Cillum proident exercitation quis laboris nulla enim consectetur id est velit. Tempor adipisicing duis proident laboris officia reprehenderit pariatur in. Tempor est non esse commodo pariatur in ipsum tempor in eiusmod quis. In consequat non culpa in elit mollit Lorem cillum. Laboris sint laboris aliqua adipisicing adipisicing ex ad ad id adipisicing labore aliqua magna. Labore eu ex eu adipisicing et est eiusmod duis deserunt sunt reprehenderit ad laborum irure. Do ullamco id magna Lorem qui non do anim occaecat laboris cillum.</p>
+                </a>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Meloey Wade</h5>
+                    <h6 class="text-muted">Corporate</h6>
+                  </div>
+                  <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit. Cillum proident exercitation quis laboris nulla enim consectetur id est velit. Tempor adipisicing duis proident laboris officia reprehenderit pariatur in. Tempor est non esse commodo pariatur in ipsum tempor in eiusmod quis. In consequat non culpa in elit mollit Lorem cillum. Laboris sint laboris aliqua adipisicing adipisicing ex ad ad id adipisicing labore aliqua magna. Labore eu ex eu adipisicing et est eiusmod duis deserunt sunt reprehenderit ad laborum irure. Do ullamco id magna Lorem qui non do anim occaecat laboris cillum.</p>
+                </a>
+                    <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  Submit a review
+                </button>
+              </div>
+            </div>
+        </div>
+      </div>
+
 </div>
 
 
- <!--FOOTER-->
- <footer>
-    <div id="footerDetails">
-      &copy; 2019 | DJG-Fresh | All Rights Reserved.
-      <div id="WadeSitesFooter">
-          Site designed &amp; created by: <br>
-          <img src="images/WSlogo.png" height="60px" width="95px">
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">Tell us your thoughts.</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <form>
+                  <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <select class="form-control" id="form_type">
+                      <option >Type of event</option>
+                      <option>Wedding</option>
+                      <option>Corporate</option>
+                      <option>Child's Party or School</option>
+                      <option>Holiday</option>
+                      <option>Custom Mix</option>
+                      <option>Supply Rental</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="form_textarea" rows="10" placeholder="What did you think?"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                      <input type="password" class="form-control" id="review_password" placeholder="Review password">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+              </form>
+          </div><!--END .modal-body-->
+        </div>
       </div>
-    </div>
-  </footer>
+    </div> <!--END Modal -->
 
-<!-- SCRIPTS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<script src="js/main.js"></script>
+    <!--CONTACT-->
 
+
+    <!--FOOTER-->
+    <footer>
+      <div id="footerDetails">
+        &copy; 2019 | DJG-Fresh | All Rights Reserved.
+        <div id="WadeSitesFooter">
+            Site designed &amp; created by: <br>
+            <img src="images/WSlogo.png" height="60px" width="95px">
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script src="js/main.js"></script>
   </body>
 </html>

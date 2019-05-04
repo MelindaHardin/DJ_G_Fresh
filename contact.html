@@ -1,101 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
     <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
     <link rel="icon" href="images/DJG-Fresh-Logo-Black copy.png" type="image/gif" sizes="16x16">
     <title>D.J. G-Fresh!!!</title>
-    
   </head>
-  <body id="contactPageBackground">
+  <body>
+    <!--NAVBAR-->
+    <nav id="navbar-example2" class="navbar fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html#home">Home</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#mixes">Mixes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="index.html#weddings">Weddings</a>
+            <a class="dropdown-item" href="index.html#corporate">Corporate</a>
+            <a class="dropdown-item" href="index.html#child_party">Child's Party</a>
+            <a class="dropdown-item" href="index.html#holiday">Holiday </a>
+            <a class="dropdown-item" href="index.html#custom_mix">Custom Mix</a>
+            <a class="dropdown-item" href="index.html#supply_rental">Supply Rental</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+        </li>
+      </ul>
+    </nav>
 
-  <!--NAVBAR-->
-  <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="mixes.html">Mixes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="testimonials.html">Testimonials</a>
-      </li>
-    </ul>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
-  <!--FORM-->
-  <div id="blurredformBackground">
 
-    <form>
-      <div class="row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name">
+
+
+    <!--JUMBTRON CONTACT-->
+      <div class="jumbotron jumbotron-fluid" id="contact">
+        <div class="container">
+          <h1 class="display-4">Contact</h1>
+          <form>
+                <div class="row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+                  <div class="form-group">
+                    <input type="tel" class="form-control" id="form_phone" placeholder="Phone number">
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="form_email" placeholder="Email address">
+                  </div>
+                  <div class="form-group">
+                    <select class="form-control" id="form_type">
+                      <option >Type of event</option>
+                      <option>Wedding</option>
+                      <option>Corporate</option>
+                      <option>Child's Party or School</option>
+                      <option>Holiday</option>
+                      <option>Custom Mix</option>
+                      <option>Supply Rental</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="form_event_date">Event date:</label>
+                    <input type="date" class="form-control" id="form_event_date" placeholder="Event date">
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                          <label for="form_event_start">Event start time:</label>
+                          <input type="time" class="form-control" id="form_event_start" placeholder="Event start time">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="form_event_end">Event end time:</label>
+                          <input type="time" class="form-control" id="form_event_end" placeholder="Event end time">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="form_textarea" rows="10" placeholder="Message"></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-light">Submit</button>
+                </form>
+
+            </div>
         </div>
       </div>
-        <div class="form-group">
-          <input type="tel" class="form-control" id="form_phone" placeholder="Phone number">
-        </div>
-        <div class="form-group">
-          <input type="email" class="form-control" id="form_email" placeholder="Email address">
-        </div>
-        <div class="form-group">
-          <select class="form-control" id="form_type">
-            <option >Type of event</option>
-            <option>Wedding</option>
-            <option>Corporate</option>
-            <option>Child's Party or School</option>
-            <option>Holiday</option>
-            <option>Custom Mix</option>
-            <option>Supply Rental</option>
-            <option>Other</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="form_event_date">Event date:</label>
-          <input type="date" class="form-control" id="form_event_date" placeholder="Event date">
-        </div>
-        <div class="row">
-          <div class="col">
-              <div class="form-group">
-                <label for="form_event_start">Event start time:</label>
-                <input type="time" class="form-control" id="form_event_start" placeholder="Event start time">
-              </div>
-          </div>
-          <div class="col">
-              <div class="form-group">
-                  <label for="form_event_end">Event end time:</label>
-                <input type="time" class="form-control" id="form_event_end" placeholder="Event end time">
-              </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" id="form_textarea" rows="10" placeholder="Message"></textarea>
-        </div>
 
-        <button type="submit" class="btn btn-light">Submit</button>
-      </form>
 
-  </div>
-    
-  
 
-   <!--FOOTER-->
-   <footer>
+    <!--CONTACT-->
+
+
+    <!--FOOTER-->
+    <footer>
       <div id="footerDetails">
         &copy; 2019 | DJG-Fresh | All Rights Reserved.
         <div id="WadeSitesFooter">
@@ -103,20 +122,26 @@
             <img src="images/WSlogo.png" height="60px" width="95px">
         </div>
       </div>
-      <!--SIDE NAVBAR-->
-  <div class="sidenav">
-    <a href="#faceb"><i class="fab fa-facebook-square"></i></a>
-    <a href="#insta"><i class="fab fa-instagram"></i></a>
-    <a href="#twitter"><i class="fab fa-twitter"></i></a>
-    <a href="#google"><i class="fab fa-google-plus"></i></a>
-    <a href="#phone"><i class="fas fa-mobile-alt"></i></a>
-    <a href="contact.html"><i class="far fa-envelope"></i></a>    
-  </div>
+
+      <div class="sidenav">
+        <a href="#faceb"><i class="fab fa-facebook-square"></i></a>
+        <a href="#insta"><i class="fab fa-instagram"></i></a>
+        <a href="#twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#google"><i class="fab fa-google-plus"></i></a>
+        <a href="#phone"><i class="fas fa-mobile-alt"></i></a>
+        <a href="contact.html"><i class="far fa-envelope"></i></a>
+      </div>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script src="js/main.js"></script>
   </body>
 </html>
