@@ -15,8 +15,8 @@ body{
 
 /*-------- NAVBAR SLIDESHOW --------*/
 .navbar{
-  box-shadow: 0 0 32px rgba(0,0,0,0.6);
-  background:rgba(0,0,0,0.5);
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -31,7 +31,7 @@ body{
 /*----------- ALL CONTAINERS -----------*/
 
 .container{
-  width: 70%;
+  width: 65%;
   margin: auto;
 }
 
@@ -97,8 +97,12 @@ body{
 
 
 /*----------- SERVICES -----------*/
-#services{
-  clear: both;
+.card{
+  width: 30em;
+  height: 25em;
+  float: left;
+  box-shadow: 0 0 32px rgba(0,0,0,0.6);
+  margin: 20px;
 }
 
 /*----------- TESTIMONIALS -----------*/
