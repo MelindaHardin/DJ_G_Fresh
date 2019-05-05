@@ -24,14 +24,25 @@ body{
 
 
 /*-------- HOME SLIDESHOW --------*/
+#home{
+  padding: 0;
+  position: relative;
+  z-index: 0;
 
+}
 
+.homeJumboLogo{
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+}
 /*----------- ALL JUMBTRONS -----------*/
 .jumbotron{
   margin-bottom: 300px;
   margin-top: 60px;
   padding: 50px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.6);
+
 }
 
 /*----------- ALL CONTAINERS -----------*/
@@ -140,10 +151,8 @@ body{
 
   /*----------- SERVICES cards -----------*/
 .card{
-
-  float: left;
   box-shadow: 0 0 32px rgba(0,0,0,0.6);
-  margin: 8px;
+  margin: 30px;
 }
 
 /*----------- TESTIMONIALS -----------*/
