@@ -61,6 +61,13 @@ body{
   background-attachment: fixed;
 }
 
+#about_container{
+  border-radius: 8px;
+  box-shadow: 0 0 32px rgba(0,0,0,0.6);
+  background:rgba(255,255,255,0.75);
+  padding: 25px;
+}
+
 /*----------- MIXES -----------*/
 #mixes{
   background-image: url("images/mixesBackground3.JPG");
