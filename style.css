@@ -1,6 +1,6 @@
 /*-------- BODY SLIDESHOW --------*/
 body{
-  background-color: #202020;
+  background-color: #000;
 }
 
 .fullContainer{
@@ -24,7 +24,7 @@ body{
 
 
 /*-------- HOME SLIDESHOW --------*/
-#home{
+#home, .carousel-fade{
   padding: 0;
   position: relative;
   z-index: 0;
@@ -38,7 +38,7 @@ body{
 }
 /*----------- ALL JUMBTRONS -----------*/
 .jumbotron{
-  margin-bottom: 300px;
+  margin-bottom: 400px;
   margin-top: 60px;
   padding: 50px;
   box-shadow: 0 0 32px rgba(0, 0, 0, 0.6);
