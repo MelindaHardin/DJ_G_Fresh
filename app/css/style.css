@@ -4,7 +4,7 @@ body{
 }
 
 .fullContainer{
-  background-image: url("images/DJG-Fresh-Logo.png");
+  background-image: url("../images/DJG-Fresh-Logo.png");
   min-height: 500px;
   background-size: 60%;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ body{
 }
 
 #about{
-  background-image: url("images/aboutBackground.JPG");
+  background-image: url("../images/aboutBackground.JPG");
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -82,7 +82,7 @@ body{
 
 /*----------- MIXES -----------*/
 #mixes{
-  background-image: url("images/mixesBackground3.JPG");
+  background-image: url("../images/mixesBackground.JPG");
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -141,7 +141,7 @@ body{
 /*----------- SERVICES -----------*/
 
 #services{
-  background-image: url("images/servicesBackground.JPG");
+  background-image: url("../images/servicesBackground.JPG");
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -161,7 +161,7 @@ body{
 }
 /*----------- TESTIMONIALS -----------*/
 #testimonials{
-  background-image: url("images/testimonialsBackground.JPG");
+  background-image: url("../images/testimonialsBackground.JPG");
   background-position: center;
   min-height: 100%;
   background-size: cover;
@@ -186,7 +186,7 @@ body{
 /*----------- CONTACT -----------*/
 #contact{
   margin-top: 500px;
-  background-image: url("images/contactBackground.JPG");
+  background-image: url("../images/contactBackground.JPG");
   background-position: center;
   min-height: 100%;
   background-size: cover;
