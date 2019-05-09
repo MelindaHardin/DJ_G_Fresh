@@ -4,13 +4,13 @@ var PORT= 3000;
 
 app.use(express.static("public"));
 
-app.get("/", function(req, res){
-  res.sendFile(__dirname + "/app/public/index.html");
-})
+// app.get("/", function(req, res){
+//   res.sendFile(__dirname + "public/index.html");
+// })
 
-app.get("/contact", function(req, res){
-  res.sendFile(__dirname + "/app/public/contact.html");
-})
+// app.get("/contact", function(req, res){
+//   res.sendFile(__dirname + "public/contact.html");
+// })
 
 app.listen(PORT, function(req, res){
   console.log ("server listening on port" + PORT );
