@@ -48,56 +48,56 @@
       <div class="jumbotron jumbotron-fluid" id="contact">
         <div class="container contactContainer">
           <h1 class="display-4">Contact</h1>
-          <form>
+          <form class="client_inq"  method="post">
                 <div class="row">
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" name="formFirstName" class="form-control" placeholder="First name">
                   </div>
                   <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
+                    <input type="text" name="formLastName" class="form-control" placeholder="Last name">
                   </div>
                 </div>
                   <div class="form-group">
-                    <input type="tel" class="form-control" id="form_phone" placeholder="Phone number">
+                    <input type="tel" name="formPhone" class="form-control" id="form_phone" placeholder="Phone number">
                   </div>
                   <div class="form-group">
-                    <input type="email" class="form-control" id="form_email" placeholder="Email address">
+                    <input type="email" name="formEmail" class="form-control" id="form_email" placeholder="Email address">
                   </div>
                   <div class="form-group">
-                    <select class="form-control" id="form_type">
-                      <option >Type of event</option>
-                      <option>Wedding</option>
-                      <option>Corporate</option>
-                      <option>Child's Party or School</option>
-                      <option>Holiday</option>
-                      <option>Custom Mix</option>
-                      <option>Supply Rental</option>
-                      <option>Other</option>
+                    <select class="form-control" name="formEventType" id="form_type">
+                      <option>Type of event</option>
+                      <option value="wedding">Wedding</option>
+                      <option  value="corporate">Corporate</option>
+                      <option  value="childs" >Child's Party or School</option>
+                      <option  value="holidy" >Holiday</option>
+                      <option  value="custom" >Custom Mix</option>
+                      <option  value="sypply" >Supply Rental</option>
+                      <option  value="other" >Other</option>
                     </select>
                   </div>
                   <div class="form-group">
                     <label for="form_event_date">Event date:</label>
-                    <input type="date" class="form-control" id="form_event_date" placeholder="Event date">
+                    <input type="date" name="formEventDate" class="form-control" id="form_event_date" placeholder="Event date">
                   </div>
                   <div class="row">
                     <div class="col">
                         <div class="form-group">
                           <label for="form_event_start">Event start time:</label>
-                          <input type="time" class="form-control" id="form_event_start" placeholder="Event start time">
+                          <input type="time" name="formEventStart" class="form-control" id="form_event_start" placeholder="Event start time">
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group">
                             <label for="form_event_end">Event end time:</label>
-                          <input type="time" class="form-control" id="form_event_end" placeholder="Event end time">
+                          <input type="time" name="formEventEnd" class="form-control" id="form_event_end" placeholder="Event end time">
                         </div>
                     </div>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control" id="form_textarea" rows="10" placeholder="Message"></textarea>
+                    <textarea class="form-control" name="formMessage" id="form_textarea" rows="10" placeholder="Message"></textarea>
                   </div>
 
-                  <button type="submit" class="btn btn-light">Submit</button>
+                  <button type="submit" name="formClientInq" class="btn btn-light">Submit</button>
                 </form>
 
             </div>
@@ -121,7 +121,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-  <!-- <script src="../js/main.js"></script> -->
+    <script src="../js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   </body>
 </html>
