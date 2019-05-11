@@ -276,7 +276,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Tell me your thoughts.</h5>
+        <h5 class="modal-title">Tell me your thoughts.</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -284,16 +284,16 @@
       <div class="modal-body">
         <form>
           <div class="form-group">
-            <label for="testimonialName">Name</label>
-            <input type="text" class="form-control" id="testimonialName" placeholder="First &amp; Last">
+            <label for="testimonialSubmitterName">Name</label>
+            <input type="text" class="form-control" name="testimonialSubmitterName" id="testimonialSubmitterName" placeholder="First &amp; Last">
           </div>
           <div class="form-group">
-            <label for="testimonialEmail">Email address</label>
-            <input type="email" class="form-control" id="testimonialEmail" placeholder="name@example.com">
+            <label for="testimonialSubmitterEmail">Email address</label>
+            <input type="email" class="form-control" name="testimonialSubmitterEmail" id="testimonialSubmitterEmail" placeholder="name@example.com">
           </div>
           <div class="form-group">
-            <label for="modalEventType">What type of event did you have?</label>
-            <select class="form-control" id="modalEventType">
+            <label for="testimonialSubmitterEventType">What type of event did you have?</label>
+            <select class="form-control" name="testimonialSubmitterEventType" id="testimonialSubmitterEventType">
               <option>Wedding</option>
               <option>Corporate</option>
               <option>Child's Party</option>
@@ -304,16 +304,16 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Share your feedback</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+            <label for="testimonialSubmitterFeedback">Share your feedback</label>
+            <textarea class="form-control" name="testimonialSubmitterFeedback" id="testimonialSubmitterFeedback" rows="10"></textarea>
           </div>
           <div class="md-form">
-            <input type="password" id="materialLoginFormPassword" class="form-control">
-            <label for="materialLoginFormPassword">Event Password</label>
+            <input type="password" class="form-control" name="testimonialSubmitterPassword" id="testimonialSubmitterPassword" >
+            <label for="testimonialSubmitterPassword">Event Password</label>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
-            <button type="button" class="btn btn-primary">Submit</button>
+            <button type="button" name="testimonialSubmitted" class="btn btn-primary">Submit</button>
           </div>
         </form>
       </div>
