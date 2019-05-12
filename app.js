@@ -85,7 +85,7 @@ app.post("/", function (req, res){
     //password: testmonialSubmittedPassword
   })
   testimonial_submission.save();
-  res.redirect("/");
+  res.redirect("/#testimonials");
   console.log(testimonial_submission);
 })
 
