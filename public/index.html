@@ -282,7 +282,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form>
+        <form method="post">
           <div class="form-group">
             <label for="testimonialSubmitterName">Name</label>
             <input type="text" class="form-control" name="testimonialSubmitterName" id="testimonialSubmitterName" placeholder="First &amp; Last">
@@ -307,13 +307,13 @@
             <label for="testimonialSubmitterFeedback">Share your feedback</label>
             <textarea class="form-control" name="testimonialSubmitterFeedback" id="testimonialSubmitterFeedback" rows="10"></textarea>
           </div>
-          <div class="md-form">
+          <!-- <div class="md-form">
             <input type="password" class="form-control" name="testimonialSubmitterPassword" id="testimonialSubmitterPassword" >
             <label for="testimonialSubmitterPassword">Event Password</label>
-          </div>
+          </div> -->
           <div class="modal-footer">
             <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
-            <button type="button" name="testimonialSubmitted" class="btn btn-primary">Submit</button>
+            <button type="submit" name="testimonialSubmitted" id="testimonialSubmitted" class="btn btn-primary">Submit</button>
           </div>
         </form>
       </div>

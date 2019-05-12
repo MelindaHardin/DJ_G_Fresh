@@ -4,3 +4,11 @@ $( document ).ready(function() {
 
 
 });
+
+//modal
+$('#testimonialSubmitted').click(function(event){
+    alert("Thank you for your submission")
+    event.preventDevault();
+    $('.modal').modal('hide');
+    return false;
+});
