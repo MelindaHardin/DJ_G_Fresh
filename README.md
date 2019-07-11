@@ -2,4 +2,4 @@
 
 node server.js
 
-listen on http://localhost:3000
+listen on localhost:3000
